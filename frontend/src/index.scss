@@ -1,0 +1,25 @@
+@import './assets/style/variable.scss';
+@import './components/Account/index.scss';
+@import './components/Banner/index.scss';
+@import './components/FeatureItem/index.scss';
+@import './components/Footer/index.scss';
+@import './components/FormContainer/index.scss';
+@import './components/Header/index.scss';
+@import './Pages/Home/index.scss';
+@import './Pages/SignIn/index.scss';
+@import './Pages/User/index.scss';
+
+html {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: $secondary-color;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

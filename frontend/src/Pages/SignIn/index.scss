@@ -1,0 +1,44 @@
+.main {
+  flex: 1;
+}
+
+.bg-dark {
+  background-color: $background-color;
+  min-height: calc(100vh - 143px);
+  padding: 1px 0;
+}
+
+.input-remember {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  label {
+    margin-left: 0.25rem;
+  }
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 1rem;
+  label {
+    font-weight: bold;
+  }
+  input {
+    padding: 5px;
+    font-size: 1.2rem;
+  }
+}
+
+.sign-in-button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  border-color: $primary-color;
+  background-color: $primary-color;
+  color: $white-color;
+}
